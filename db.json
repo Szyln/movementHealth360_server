@@ -8,14 +8,29 @@
       "descriptions": [
         "英國 CMS 總部認證動作治療師 (KCMT)，客製專屬物理治療。"
       ],
-      "provide": [
+      "features": [
         "1 對 1 運動治療",
         "1 對 1 徒手治療",
         "1 對 1 整合式身體優化"
       ],
+      "provide": [
+        {
+          "name": "英國動作治療師 - 物理治療服務",
+          "pricePerUnit": "詳談",
+          "discount": 0,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
+        }
+      ],
       "appointment": "required",
       "resident": false,
-      "enable": false
+      "enable": true
     },
     {
       "name": "1 對 1 全方位動作健康處方",
@@ -26,117 +41,401 @@
       "provide": [
         {
           "name": "60 分鐘全身動作健康測試",
-          "price": 3000,
-          "lengthOfTime": 60
+          "pricePerUnit": 3000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
         },
         {
           "name": "60 分鐘健康剖析與改善建議",
-          "price": 2000,
-          "lengthOfTime": 60
+          "pricePerUnit": 2000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
         },
         {
           "name": "60 分鐘動作健康優化訓練",
-          "price": 2000,
-          "lengthOfTime": 60
+          "pricePerUnit": 2000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
         },
         {
           "name": "測試＋訓練套餐",
-          "price": 3000,
-          "lengthOfTime": 60
+          "pricePerUnit": 1500,
+          "unit": {
+            "max": 99,
+            "min": 2
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
         }
       ],
       "appointment": "required",
       "resident": true,
       "enable": true,
+      "requirement": ["落地全身鏡", "15cm 高登階箱"],
       "link": "https://docs.google.com/forms/d/1f2BP0ELQ-zGpdrLrSgi_uvgBAN1htfA1j5UQOysIVRU/viewform?edit_requested=true"
     },
     {
       "name": "1 對 1 進階動作控制訓練",
       "category": "找健康",
       "descriptions": [
-        "1 對 1 動作諮詢評估與動作控制再訓練。包含專屬訓練回家功課。",
-        ["姿勢體態調整", "動作肌力不對稱平衡", "運動表現提升"]
+        "1 對 1 動作諮詢評估與動作控制再訓練。包含專屬訓練回家功課。"
       ],
+      "features": ["姿勢體態調整", "動作肌力不對稱平衡", "運動表現提升"],
       "provide": [
         {
-          "name": "1對1進階動作控制訓練",
+          "name": "1 對 1 進階動作控制訓練",
           "price": 2000,
-          "lengthOfTime": 60
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
         }
       ],
       "appointment": "required",
       "resident": true,
+      "requirement": ["落地全身鏡"],
       "enable": false
     },
     {
-      "name": "1 對 1 運動員回場動作健康準備系列",
+      "name": "運動員回場動作健康準備系列",
       "category": "找健康",
+      "alert": "可提供特殊包班團練服務",
       "descriptions": [
-        ["1 對 1 運動員回場動作健康評估", "1 對 1 運動員回場動作健康訓練"],
-        "透過科學化專項動作分析，客製化所需的動作檢測，藉由數據化報告評估及分析健側患側之差異，提供各專項所需之肌力體能及功能性訓練以利銜接專項運動。",
-        ["競技體適能檢測", "專項功能性回場檢測", "專項功能性動作訓練"]
+        "透過科學化專項動作分析，客製化所需的動作檢測，藉由數據化報告評估及分析健側患側之差異，提供各專項所需之肌力體能及功能性訓練以利銜接專項運動。"
+      ],
+      "features": [
+        "1 對 1 運動員回場動作健康評估",
+        "1 對 1 運動員回場動作健康訓練",
+        "競技體適能檢測",
+        "專項功能性回場檢測",
+        "專項功能性動作訓練"
       ],
       "provide": [
         {
-          "name": "單堂",
-          "price": 2500,
-          "lengthOfTime": 60
-        },
-        {
-          "name": "四堂",
-          "price": 10000,
-          "discount": 8000,
-          "lengthOfTime": 60
+          "name": "運動員回場動作健康準備系列",
+          "pricePerUnit": 2500,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 99,
+            "min": 1
+          },
+          "discount": {
+            "unit": 4,
+            "discountPerUnit": -500
+          }
         }
       ],
-      "enable": false,
-      "teamTraining": "optional"
+      "appointment": "required",
+      "resident": false,
+      "requirement": [
+        "啞鈴( 1 ~ 10 公斤）",
+        "彈力帶（環狀、一般長型、管狀",
+        "超級拉力帶",
+        "藥球",
+        "牆球",
+        "壺鈴",
+        "角錐",
+        "繩梯",
+        "bosu",
+        "軟墊",
+        "瑜伽球",
+        "欄架",
+        "登階椅",
+        "跳箱",
+        "戰繩"
+      ],
+      "allowTeamTraining": true,
+      "enable": false
     },
     {
       "name": "肌力體能動作健康",
       "category": "找運動",
+      "descriptions": [
+        "結合美國運動科學與英國動作科學，最全面的科學化訓練。六大方向肌力訓練與心肺適能訓練。週期化編排。"
+      ],
+      "features": ["提升動作健康", "強化肌力", "優化心肺耐力", "增強體力"],
+      "provide": [
+        {
+          "name": "1 對 1 肌力體能動作健康系列",
+          "pricePerUnit": 2000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          },
+          "discount": {
+            "unit": 8,
+            "discountPerUnit": -200
+          }
+        },
+        {
+          "name": "1 對 2 肌力體能動作健康系列",
+          "pricePerUnit": 2500,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 2,
+            "min": 2
+          },
+          "discount": {
+            "unit": 8,
+            "discountPerUnit": -250
+          }
+        },
+        {
+          "name": "肌力體能動作健康團班",
+          "resident": true,
+          "pricePerUnit": 800,
+          "unit": {
+            "max": 1,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "name": "肌力體能動作健康團班",
+          "pricePerUnit": 800,
+          "unit": {
+            "max": 1,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "name": "肌力體能動作健康包班",
+          "consult": "required",
+          "pricePerUnit": 2400,
+          "unit": {
+            "max": 1,
+            "min": 1
+          },
+          "member": {
+            "max": 6,
+            "min": 1
+          }
+        }
+      ],
+
+      "appointment": "required",
+      "allowRemote": true,
+      "allowTeamTraining": true,
+      "resident": true,
+      "requirement": [
+        "深蹲架 * 4 座",
+        "男用槓鈴 * 2 支",
+        "女用槓鈴 * 2 支",
+        "技術槓鈴 * 1 支",
+        "啞鈴 (2.5kg ~ 25kg 各 1 對) * 1 套",
+        "可調式臥推椅*4張",
+        "槓片 (2.5kg ~ 20kg) * 數片"
+      ],
       "enable": false
     },
     {
-      "name": "綜合體能動作健康",
+      "name": "綜合體能動作健康系列",
       "category": "找運動",
+      "descriptions": [
+        "綜合了心肺適能、體操與舉重，強調持續多變化與強度的混和健身訓練。並透過動作科學提升身體適能與動作技巧性。帶來全面的表現提升。"
+      ],
+      "features": [
+        "提升肌力、燃燒脂肪",
+        "強化平衡、協調、柔軟度",
+        "奧林匹克舉重",
+        "心肺代謝能力",
+        "全面提升運動表現"
+      ],
+      "provide": [
+        {
+          "name": "1 對 1 綜合體能動作健康系列",
+          "pricePerUnit": 2000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          },
+          "discount": {
+            "unit": 8,
+            "discountPerUnit": -100
+          }
+        },
+        {
+          "name": "1 對 2 綜合體能動作健康系列",
+          "pricePerUnit": 2500,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 2,
+            "min": 2
+          },
+          "discount": {
+            "unit": 8,
+            "discountPerUnit": -125
+          }
+        },
+        {
+          "name": "綜合體能動作健康團班",
+          "consult": "required",
+          "pricePerUnit": 800,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "name": "綜合體能動作健康包班",
+          "consult": "required",
+          "pricePerUnit": 2400,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 6,
+            "min": 1
+          }
+        }
+      ],
+
+      "appointment": "required",
+      "allowRemote": true,
+      "allowTeamTraining": true,
+      "resident": true,
+      "requirement": [
+        "深蹲架 * 4 座",
+        "男用槓鈴 * 2 支",
+        "女用槓鈴 * 2 支",
+        "技術槓鈴 * 1 支",
+        "啞鈴 (2.5kg ~ 25kg 各 1 對) * 1 套",
+        "可調式臥推椅*4張",
+        "槓片 (2.5kg ~ 20kg) * 數片"
+      ],
       "enable": false,
       "link": ""
     },
     {
-      "name": "客製化運動系列",
+      "name": "私人客製化運動系列",
       "category": "找運動",
+      "descriptions": ["1 對 1 私人教練諮詢與訓練規劃。"],
+      "features": [
+        "增肌減脂",
+        "體態雕塑",
+        "核心強化",
+        "抵抗老化",
+        "傷後運動訓練"
+      ],
+      "provide": [
+        {
+          "name": "私人客製化運動系列",
+          "pricePerUnit": 2000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          },
+          "discount": {
+            "unit": 8,
+            "discountPerUnit": -100
+          }
+        }
+      ],
+
+      "appointment": "required",
+      "allowRemote": false,
+      "allowTeamTraining": false,
+      "resident": true,
+      "requirement": [
+        "深蹲架 * 4 座",
+        "男用槓鈴 * 2 支",
+        "女用槓鈴 * 2 支",
+        "技術槓鈴 * 1 支",
+        "啞鈴 (2.5kg ~ 25kg 各 1 對) * 1 套",
+        "可調式臥推椅*4張",
+        "槓片 (2.5kg ~ 20kg) * 數片"
+      ],
       "enable": false,
       "link": ""
     },
     {
       "name": "給所有人的動作健康入門課",
       "category": "找知識（入門）",
-      "descriptions": [
+      "features": [
         "【360 講堂 - 動作健康初階班：認識動作健康】",
         "【360 講堂 - 動作健康進階班：找回你的動作健康】",
         "【360 講堂 - 辦公族的肩頸動作健康】",
         "【360 講堂 - 櫃哥櫃姐的骨盆下肢動作健康】",
         "【360 講堂 - 坐姿與站姿與動作健康】"
       ],
+      "appointment": "required",
       "enable": false,
       "link": ""
     },
     {
       "name": "給所有人的肌力體能動作健康課",
       "category": "找知識（入門）",
-      "descriptions": [
+      "features": [
         "【360 講堂 - 認識人體六大肌力訓練動作】",
         "【360 講堂 - 競技體適能的測試＆訓練 123】",
         "【360 講堂 - 週期化訓練】"
       ],
+      "appointment": "required",
       "enable": false,
       "link": ""
     },
     {
       "name": "給專業人員的動作進修課",
       "category": "找知識（進階）",
-      "descriptions": [
+      "alert": "專為運動／醫療相關專業人士開設",
+      "features": [
         "【360 講堂 - 進階肌動訓練學肩頸胸椎 Advanced Kinesiological Training: Neck & Shoulder & T-Spine Workshop】",
         "【360 講堂 - 進階肌動訓練學：腰椎骨盆髖 Advanced Kinesiological Training: Low Back & Pelvic & Hip Workshop】",
         "【360 講堂 - 動作診斷與運動治療概論】",
@@ -148,7 +447,8 @@
     {
       "name": "給專業人員的肌力體能動作健康進修課",
       "category": "找知識（進階）",
-      "descriptions": [
+      "alert": "專為運動／醫療相關專業人士開設",
+      "features": [
         "【360 講堂 - 深蹲動作健康】",
         "【360 講堂 - 硬舉動作健康】",
         "【360 講堂 - 垂直推動作健康】",
@@ -164,7 +464,7 @@
     {
       "name": "給專業人員的綜合體能動作健康進修課",
       "category": "找知識（進階）",
-      "descriptions": [
+      "features": [
         "【360 講堂 - 挺舉動作健康】",
         "【360 講堂 - 抓舉動作健康】",
         "【360 講堂 - 心肺體能動作健康】",
