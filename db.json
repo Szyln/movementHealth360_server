@@ -148,7 +148,7 @@
           },
           "discount": {
             "unit": 4,
-            "discountPerUnit": -500
+            "discountPerUnit": 500
           }
         }
       ],
@@ -195,7 +195,7 @@
           },
           "discount": {
             "unit": 8,
-            "discountPerUnit": -200
+            "discountPerUnit": 200
           }
         },
         {
@@ -211,7 +211,7 @@
           },
           "discount": {
             "unit": 8,
-            "discountPerUnit": -250
+            "discountPerUnit": 250
           }
         },
         {
@@ -296,7 +296,7 @@
           },
           "discount": {
             "unit": 8,
-            "discountPerUnit": -100
+            "discountPerUnit": 100
           }
         },
         {
@@ -312,7 +312,7 @@
           },
           "discount": {
             "unit": 8,
-            "discountPerUnit": -125
+            "discountPerUnit": 125
           }
         },
         {
@@ -384,7 +384,7 @@
           },
           "discount": {
             "unit": 8,
-            "discountPerUnit": -100
+            "discountPerUnit": 100
           }
         }
       ],
