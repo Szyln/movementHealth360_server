@@ -17,7 +17,6 @@
         {
           "name": "英國動作治療師 - 物理治療服務",
           "pricePerUnit": "詳談",
-          "discount": 0,
           "unit": {
             "max": 99,
             "min": 1
@@ -216,6 +215,7 @@
         },
         {
           "name": "肌力體能動作健康團班",
+          "class": true,
           "resident": true,
           "pricePerUnit": 800,
           "unit": {
@@ -229,6 +229,7 @@
         },
         {
           "name": "肌力體能動作健康團班",
+          "class": true,
           "pricePerUnit": 800,
           "unit": {
             "max": 1,
@@ -241,6 +242,7 @@
         },
         {
           "name": "肌力體能動作健康包班",
+          "class": true,
           "consult": "required",
           "pricePerUnit": 2400,
           "unit": {
@@ -318,6 +320,7 @@
         {
           "name": "綜合體能動作健康團班",
           "consult": "required",
+          "class": true,
           "pricePerUnit": 800,
           "unit": {
             "max": 99,
@@ -331,6 +334,7 @@
         {
           "name": "綜合體能動作健康包班",
           "consult": "required",
+          "class": true,
           "pricePerUnit": 2400,
           "unit": {
             "max": 99,
