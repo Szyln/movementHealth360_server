@@ -28,7 +28,8 @@
         }
       ],
       "appointment": "required",
-      "resident": false,
+      "allowClass": false,
+      "allowResident": false,
       "enable": true
     },
     {
@@ -88,9 +89,10 @@
         }
       ],
       "appointment": "required",
-      "resident": true,
-      "enable": true,
+      "allowClass": false,
+      "allowResident": true,
       "requirement": ["落地全身鏡", "15cm 高登階箱"],
+      "enable": true,
       "link": "https://docs.google.com/forms/d/1f2BP0ELQ-zGpdrLrSgi_uvgBAN1htfA1j5UQOysIVRU/viewform?edit_requested=true"
     },
     {
@@ -115,7 +117,8 @@
         }
       ],
       "appointment": "required",
-      "resident": true,
+      "allowClass": false,
+      "allowResident": true,
       "requirement": ["落地全身鏡"],
       "enable": false
     },
@@ -152,7 +155,8 @@
         }
       ],
       "appointment": "required",
-      "resident": false,
+      "allowClass": true,
+      "allowResident": true,
       "requirement": [
         "啞鈴( 1 ~ 10 公斤）",
         "彈力帶（環狀、一般長型、管狀",
@@ -170,7 +174,6 @@
         "跳箱",
         "戰繩"
       ],
-      "allowTeamTraining": true,
       "enable": false
     },
     {
@@ -228,22 +231,8 @@
           }
         },
         {
-          "name": "肌力體能動作健康團班",
-          "class": true,
-          "pricePerUnit": 800,
-          "unit": {
-            "max": 1,
-            "min": 1
-          },
-          "member": {
-            "max": 1,
-            "min": 1
-          }
-        },
-        {
           "name": "肌力體能動作健康包班",
           "class": true,
-          "consult": "required",
           "pricePerUnit": 2400,
           "unit": {
             "max": 1,
@@ -258,8 +247,8 @@
 
       "appointment": "required",
       "allowRemote": true,
-      "allowTeamTraining": true,
-      "resident": true,
+      "allowClass": true,
+      "allowResident": true,
       "requirement": [
         "深蹲架 * 4 座",
         "男用槓鈴 * 2 支",
@@ -319,7 +308,6 @@
         },
         {
           "name": "綜合體能動作健康團班",
-          "consult": "required",
           "class": true,
           "pricePerUnit": 800,
           "unit": {
@@ -333,7 +321,6 @@
         },
         {
           "name": "綜合體能動作健康包班",
-          "consult": "required",
           "class": true,
           "pricePerUnit": 2400,
           "unit": {
@@ -349,8 +336,8 @@
 
       "appointment": "required",
       "allowRemote": true,
-      "allowTeamTraining": true,
-      "resident": true,
+      "allowClass": true,
+      "allowResident": true,
       "requirement": [
         "深蹲架 * 4 座",
         "男用槓鈴 * 2 支",
@@ -394,9 +381,9 @@
       ],
 
       "appointment": "required",
+      "allowClass": false,
+      "allowResident": true,
       "allowRemote": false,
-      "allowTeamTraining": false,
-      "resident": true,
       "requirement": [
         "深蹲架 * 4 座",
         "男用槓鈴 * 2 支",
@@ -432,6 +419,8 @@
         "【360 講堂 - 週期化訓練】"
       ],
       "appointment": "required",
+      // "allowClass": true,
+      // "allowResident": true,
       "enable": false,
       "link": ""
     },
@@ -445,6 +434,8 @@
         "【360 講堂 - 動作診斷與運動治療概論】",
         "【360 講堂 - 動作診斷與運動治療：實作工作坊】"
       ],
+      "allowClass": false,
+      "allowResident": false,
       "enable": false,
       "link": ""
     },
@@ -462,6 +453,8 @@
         "【360 講堂 - 競技體適能】",
         "【360 講堂 - 週期化訓練】"
       ],
+      "allowClass": false,
+      "allowResident": false,
       "enable": false,
       "link": ""
     },
@@ -475,6 +468,8 @@
         "【360 講堂 - 倒立動作健康】",
         "【360 講堂 - 暴力上槓動作健康】"
       ],
+      "allowClass": false,
+      "allowResident": false,
       "enable": false,
       "link": ""
     }
