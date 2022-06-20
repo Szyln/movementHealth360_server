@@ -105,7 +105,7 @@
       "products": [
         {
           "name": "1 對 1 進階動作控制訓練",
-          "price": 2000,
+          "pricePerUnit": 2000,
           "unit": {
             "max": 99,
             "min": 1
