@@ -125,7 +125,6 @@
     {
       "name": "運動員回場動作健康準備系列",
       "category": "找健康",
-      "alert": "可提供特殊包班團練服務",
       "descriptions": [
         "透過科學化專項動作分析，客製化所需的動作檢測，藉由數據化報告評估及分析健側患側之差異，提供各專項所需之肌力體能及功能性訓練以利銜接專項運動。"
       ],
@@ -425,7 +424,7 @@
     {
       "name": "給專業人員的動作進修課",
       "category": "找知識（進階）",
-      "alert": "專為運動／醫療相關專業人士開設",
+      "alert": "為運動／醫療相關專業人士開設",
       "features": [
         "【360 講堂 - 進階肌動訓練學肩頸胸椎 Advanced Kinesiological Training: Neck & Shoulder & T-Spine Workshop】",
         "【360 講堂 - 進階肌動訓練學：腰椎骨盆髖 Advanced Kinesiological Training: Low Back & Pelvic & Hip Workshop】",
@@ -440,7 +439,7 @@
     {
       "name": "給專業人員的肌力體能動作健康進修課",
       "category": "找知識（進階）",
-      "alert": "專為運動／醫療相關專業人士開設",
+      "alert": "為運動／醫療相關專業人士開設",
       "features": [
         "【360 講堂 - 深蹲動作健康】",
         "【360 講堂 - 硬舉動作健康】",
