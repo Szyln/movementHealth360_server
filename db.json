@@ -419,8 +419,6 @@
         "【360 講堂 - 週期化訓練】"
       ],
       "appointment": "required",
-      // "allowClass": true,
-      // "allowResident": true,
       "enable": false,
       "link": ""
     },
