@@ -406,6 +406,9 @@
         "【360 講堂 - 坐姿與站姿與動作健康】"
       ],
       "appointment": "required",
+      "allowClass": true,
+      "allowResident": false,
+      "allowRemote": false,
       "enable": false,
       "link": ""
     },
@@ -418,6 +421,9 @@
         "【360 講堂 - 週期化訓練】"
       ],
       "appointment": "required",
+      "allowClass": true,
+      "allowResident": false,
+      "allowRemote": false,
       "enable": false,
       "link": ""
     },
@@ -431,8 +437,9 @@
         "【360 講堂 - 動作診斷與運動治療概論】",
         "【360 講堂 - 動作診斷與運動治療：實作工作坊】"
       ],
-      "allowClass": false,
+      "allowClass": true,
       "allowResident": false,
+      "allowRemote": false,
       "enable": false,
       "link": ""
     },
@@ -450,8 +457,9 @@
         "【360 講堂 - 競技體適能】",
         "【360 講堂 - 週期化訓練】"
       ],
-      "allowClass": false,
+      "allowClass": true,
       "allowResident": false,
+      "allowRemote": false,
       "enable": false,
       "link": ""
     },
@@ -465,8 +473,9 @@
         "【360 講堂 - 倒立動作健康】",
         "【360 講堂 - 暴力上槓動作健康】"
       ],
-      "allowClass": false,
+      "allowClass": true,
       "allowResident": false,
+      "allowRemote": false,
       "enable": false,
       "link": ""
     }
@@ -499,9 +508,10 @@
         "不論你想要達成什麼目標，讓我們來幫助你。"
       ],
       "features": [
-        "可選擇 1 對 1 或 2 或團班的授課方式",
+        "可選擇 1 對 1 或 2 的授課方式",
+        "可訂製團體包班課程",
         "可線上授課",
-        "可量身打造客製化課程（事前洽談）"
+        "可訂製客製化課程"
       ],
       "product": [],
       "enable": true,
