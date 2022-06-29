@@ -30,7 +30,7 @@
       "appointment": "required",
       "allowClass": false,
       "allowResident": false,
-      "enable": true
+      "enable": false
     },
     {
       "name": "1 對 1 全方位動作健康處方",
