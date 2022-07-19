@@ -493,7 +493,7 @@
     },
     {
       "name": "給專業人員的動作進修課",
-      "category": "找知識（進階）",
+      "category": "找進修",
       "alert": "為運動／醫療相關專業人士開設",
       "features": [
         "【360 講堂 - 進階肌動訓練學肩頸胸椎 Advanced Kinesiological Training: Neck & Shoulder & T-Spine Workshop】",
@@ -509,7 +509,7 @@
     },
     {
       "name": "給專業人員的肌力體能動作健康進修課",
-      "category": "找知識（進階）",
+      "category": "找進修",
       "alert": "為運動／醫療相關專業人士開設",
       "features": [
         "【360 講堂 - 深蹲動作健康】",
@@ -529,7 +529,7 @@
     },
     {
       "name": "給專業人員的綜合體能動作健康進修課",
-      "category": "找知識（進階）",
+      "category": "找進修",
       "features": [
         "【360 講堂 - 挺舉動作健康】",
         "【360 講堂 - 抓舉動作健康】",
