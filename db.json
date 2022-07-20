@@ -520,6 +520,7 @@
       "allowResident": false,
       "allowRemote": false,
       "enable": false,
+      "hide": true,
       "link": ""
     },
     {
@@ -540,6 +541,7 @@
       "allowResident": false,
       "allowRemote": false,
       "enable": false,
+      "hide": true,
       "link": ""
     },
     {
@@ -556,6 +558,7 @@
       "allowResident": false,
       "allowRemote": false,
       "enable": false,
+      "hide": true,
       "link": ""
     }
   ],
