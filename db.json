@@ -473,8 +473,8 @@
       "allowClass": true,
       "allowResident": false,
       "allowRemote": false,
-      "enable": false,
-      "link": ""
+      "enable": true,
+      "link": "/contact"
     },
     {
       "name": "給所有人的肌力體能動作健康課",
@@ -488,8 +488,8 @@
       "allowClass": true,
       "allowResident": false,
       "allowRemote": false,
-      "enable": false,
-      "link": ""
+      "enable": true,
+      "link": "/contact"
     },
     {
       "name": "給專業人員的動作進修課",
