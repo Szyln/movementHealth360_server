@@ -439,22 +439,6 @@
             "unit": 8,
             "discountPerUnit": 100
           }
-        }, 
-        {
-          "name": "1 對 2 私人客製化運動訓練",
-          "pricePerUnit": 2000,
-          "unit": {
-            "max": 99,
-            "min": 1
-          },
-          "member": {
-            "max": 2,
-            "min": 2
-          },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 100
-          }
         }
       ],
 
