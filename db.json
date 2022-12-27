@@ -34,7 +34,7 @@
       "link": "https://forms.gle/Uvf7iS75DTYKVBBD9"
     },
     {
-      "name": "1 對 1 全方位動作健康處方",
+      "name": "1 對 1 全身性動作健康檢查",
       "category": "找健康",
       "descriptions": [
         "全身性「動作」健康檢查。骨頭、心臟、腸胃由醫生幫你檢查，你動作的健康就讓我們來幫你守護。精準定位容易受傷、失控的關節，分析、監測並給予優化建議，讓你找回身體的自主權！"
@@ -49,9 +49,24 @@
       "img": "/1to1wholeHealthCheck.jpg",
       "products": [
         {
-          "name": "60 分鐘全身動作健康測試",
+          "name": "健康檢查",
           "descriptions": [
-            "全身各關節動作控制能力測試，圖表量化輸出動作健康報告書。"
+            "全身各關節動作控制能力測試，圖表量化輸出動作健康檢查報告書。"
+          ],
+          "pricePerUnit": 5000,
+          "unit": {
+            "max": 99,
+            "min": 1
+          },
+          "member": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "name": "報告書解說＋運動處方",
+          "descriptions": [
+            "動作健康報告書解說，與專屬動作優化訓練計畫建議及訓練菜單開立。"
           ],
           "pricePerUnit": 3000,
           "unit": {
@@ -64,44 +79,24 @@
           }
         },
         {
-          "name": "60 分鐘健康剖析與改善建議",
-          "descriptions": [
-            "動作健康報告書解說，與專屬動作優化訓練計畫建議及訓練菜單開立。"
-          ],
-          "pricePerUnit": 2000,
+          "name": "套餐：動作健康檢查　買一送一方案",
+          "descriptions": ["以優惠價完整購入「全身性動作健康檢查」，除上述方案內容之外，額外加贈一次的健康檢查（複檢）"   
+        ],
+        "pricePerPlan": 13000,
+        "hourPerPlan": 3,
+        
+        "discountPerPlan": 8000,
           "unit": {
             "max": 99,
-            "min": 1
+            "min": 3
           },
           "member": {
             "max": 1,
             "min": 1
-          }
-        },
-        {
-          "name": "60 分鐘動作健康優化訓練",
-          "descriptions": ["專屬動作優化訓練及回家動作訓練功課。"],
-          "pricePerUnit": 2000,
-          "unit": {
-            "max": 99,
-            "min": 1
           },
-          "member": {
-            "max": 1,
-            "min": 1
-          }
-        },
-        {
-          "name": "動作健康處方套餐",
-          "descriptions": ["包含完整測試、健康報告書，與動作訓練及菜單。"],
-          "pricePerUnit": 1500,
-          "unit": {
-            "max": 99,
-            "min": 2
-          },
-          "member": {
-            "max": 1,
-            "min": 1
+          "discount": {
+            "unit":1,
+            "discountPerUnit": 1667
           }
         }
       ],
