@@ -80,12 +80,12 @@
         },
         {
           "name": "套餐：動作健康檢查　買一送一方案",
-          "descriptions": ["以優惠價完整購入「全身性動作健康檢查」，除上述方案內容之外，額外加贈一次的健康檢查（複檢）"   
-        ],
-        "pricePerPlan": 13000,
-        "hourPerPlan": 3,
-        
-        "discountPerPlan": 8000,
+          "descriptions": [
+            "以優惠價完整購入「全身性動作健康檢查」，除上述方案內容之外，額外加贈一次的健康檢查（複檢）"
+          ],
+          "pricePerPlan": 13000,
+          "hourPerPlan": 3,
+          "discountPerPlan": 8000,
           "unit": {
             "max": 99,
             "min": 3
@@ -94,16 +94,21 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit":1,
-            "discountPerUnit": 1667
-          }
+          "discount": [
+            {
+              "unit": 1,
+              "discountPerUnit": 1667
+            }
+          ]
         }
       ],
       "appointment": "required",
       "allowClass": false,
       "allowResident": true,
-      "requirement": ["落地全身鏡", "15cm 高登階箱"],
+      "requirement": [
+        "落地全身鏡",
+        "15cm 高登階箱"
+      ],
       "enable": true,
       "link": "https://forms.gle/B8nevv59By5eb8cRA"
     },
@@ -126,7 +131,7 @@
       "products": [
         {
           "name": "1 對 1 進階動作控制訓練",
-          "pricePerUnit": 2200,
+          "pricePerUnit": 2500,
           "unit": {
             "max": 99,
             "min": 1
@@ -135,16 +140,24 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit": 4,
-            "discountPerUnit": 200
-          }
+          "discount": [
+            {
+              "unit": 4,
+              "discountPerUnit": 300
+            },
+            {
+              "unit": 8,
+              "discountPerUnit": 500
+            }
+          ]
         }
       ],
       "appointment": "required",
       "allowClass": false,
       "allowResident": true,
-      "requirement": ["落地全身鏡"],
+      "requirement": [
+        "落地全身鏡"
+      ],
       "enable": true,
       "link": "https://forms.gle/JqdQh4CD9S6v5MmK7"
     },
@@ -181,10 +194,12 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit": 4,
-            "discountPerUnit": 500
-          }
+          "discount": [
+            {
+              "unit": 4,
+              "discountPerUnit": 300
+            }
+          ]
         }
       ],
       "appointment": "required",
@@ -242,10 +257,12 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 160
-          }
+          "discount": [
+            {
+              "unit": 8,
+              "discountPerUnit": 160
+            }
+          ]
         },
         {
           "name": "1 對 2 肌力體能動作健康訓練",
@@ -258,10 +275,12 @@
             "max": 2,
             "min": 2
           },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 315
-          }
+          "discount": [
+            {
+              "unit": 8,
+              "discountPerUnit": 315
+            }
+          ]
         },
         {
           "name": "肌力體能動作健康團班",
@@ -291,7 +310,6 @@
           }
         }
       ],
-
       "appointment": "required",
       "allowRemote": true,
       "allowClass": true,
@@ -338,10 +356,12 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 180
-          }
+          "discount": [
+            {
+              "unit": 8,
+              "discountPerUnit": 180
+            }
+          ]
         },
         {
           "name": "1 對 2 綜合體能動作健康訓練",
@@ -354,10 +374,12 @@
             "max": 2,
             "min": 2
           },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 345
-          }
+          "discount": [
+            {
+              "unit": 8,
+              "discountPerUnit": 345
+            }
+          ]
         },
         {
           "name": "綜合體能動作健康團班",
@@ -386,7 +408,6 @@
           }
         }
       ],
-
       "appointment": "required",
       "allowRemote": true,
       "allowClass": true,
@@ -421,7 +442,7 @@
       "products": [
         {
           "name": "私人客製化運動訓練",
-          "pricePerUnit": 2000,
+          "pricePerUnit": 2500,
           "unit": {
             "max": 99,
             "min": 1
@@ -430,13 +451,22 @@
             "max": 1,
             "min": 1
           },
-          "discount": {
-            "unit": 8,
-            "discountPerUnit": 100
-          }
+          "discount": [
+            {
+              "unit": 8,
+              "discountPerUnit": 600
+            },
+            {
+              "unit": 16,
+              "discountPerUnit": 800
+            },
+            {
+              "unit": 24,
+              "discountPerUnit": 1000
+            }
+          ]
         }
       ],
-
       "appointment": "required",
       "allowClass": false,
       "allowResident": true,
@@ -658,7 +688,9 @@
         "健身房特約 - 肌力體能教練/專案講師/主管（特殊族群肌力體能訓練、內部繼續教育主管與講師）",
         "私人企業特約 - 健康促進專案管理/專題講師（健康促進專案特約、專題講師）"
       ],
-      "link": { "linkTree": "https://linktr.ee/larry_physio" }
+      "link": {
+        "linkTree": "https://linktr.ee/larry_physio"
+      }
     },
     {
       "name": "林廷彥",
@@ -712,7 +744,6 @@
         "動作控制專家",
         "肌力體能教練"
       ],
-
       "specialty": [
         "專項動作分析",
         "運動員回場訓練",
@@ -748,19 +779,16 @@
   "feedbackList": [
     {
       "name": "膝蓋痛鄰居",
-
       "rate": "★★★★★",
       "comment": "下次慢跑可以多跑一圈！"
     },
     {
       "name": "蓋不到火鍋同學",
-
       "rate": "★★★★★",
       "comment": "終於搶下一分！"
     },
     {
       "name": "久站腳麻親戚",
-
       "rate": "★★★★★",
       "comment": "專業！比以前更注重健康了！"
     }
