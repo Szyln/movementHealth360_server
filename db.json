@@ -53,7 +53,7 @@
           "descriptions": [
             "全身各關節動作控制能力測試，圖表量化輸出動作健康檢查報告書。"
           ],
-          "pricePerUnit": 5000,
+          "pricePerUnit": "詳談",
           "unit": {
             "max": 99,
             "min": 1
@@ -68,7 +68,7 @@
           "descriptions": [
             "動作健康報告書解說，與專屬動作優化訓練計畫建議及訓練菜單開立。"
           ],
-          "pricePerUnit": 3000,
+          "pricePerUnit": "詳談",
           "unit": {
             "max": 99,
             "min": 1
@@ -83,9 +83,8 @@
           "descriptions": [
             "以優惠價完整購入「全身性動作健康檢查」，除上述方案內容之外，額外加贈一次的健康檢查（複檢）"
           ],
-          "pricePerPlan": 13000,
-          "hourPerPlan": 3,
-          "discountPerPlan": 8000,
+          "pricePerPlan": "詳談",
+
           "unit": {
             "max": 99,
             "min": 3
@@ -93,24 +92,16 @@
           "member": {
             "max": 1,
             "min": 1
-          },
-          "discount": [
-            {
-              "unit": 1,
-              "discountPerUnit": 1667
-            }
-          ]
+          }
+          
         }
       ],
       "appointment": "required",
       "allowClass": false,
       "allowResident": true,
-      "requirement": [
-        "落地全身鏡",
-        "15cm 高登階箱"
-      ],
+      "requirement": ["落地全身鏡", "15cm 高登階箱"],
       "enable": true,
-      "link": "https://forms.gle/B8nevv59By5eb8cRA"
+      "link": "/contact"
     },
     {
       "name": "1 對 1 進階動作控制訓練",
@@ -155,9 +146,7 @@
       "appointment": "required",
       "allowClass": false,
       "allowResident": true,
-      "requirement": [
-        "落地全身鏡"
-      ],
+      "requirement": ["落地全身鏡"],
       "enable": true,
       "link": "https://forms.gle/JqdQh4CD9S6v5MmK7"
     },
@@ -266,7 +255,7 @@
         },
         {
           "name": "1 對 2 肌力體能動作健康訓練",
-          "pricePerUnit": 2500,
+          "pricePerUnit": 2100,
           "unit": {
             "max": 99,
             "min": 1
@@ -285,6 +274,7 @@
         {
           "name": "肌力體能動作健康團班",
           "class": true,
+          
           "resident": true,
           "pricePerUnit": 800,
           "unit": {
@@ -292,7 +282,7 @@
             "min": 1
           },
           "member": {
-            "max": 1,
+            "max": 6,
             "min": 1
           }
         },
@@ -384,13 +374,14 @@
         {
           "name": "綜合體能動作健康團班",
           "class": true,
+          "resident": true,
           "pricePerUnit": 800,
           "unit": {
             "max": 99,
             "min": 1
           },
           "member": {
-            "max": 1,
+            "max": 6,
             "min": 1
           }
         },
@@ -645,7 +636,7 @@
         "融合解剖學、肌動學、表體解剖學、神經生理學",
         "包含動作科學（動作控制、動作分析、動作學習）"
       ],
-      "enable": false,
+      "enable": true,
       "hide": false
     }
   ],
@@ -688,9 +679,11 @@
         "健身房特約 - 肌力體能教練/專案講師/主管（特殊族群肌力體能訓練、內部繼續教育主管與講師）",
         "私人企業特約 - 健康促進專案管理/專題講師（健康促進專案特約、專題講師）"
       ],
-      "link": {
-        "linkTree": "https://linktr.ee/larry_physio"
-      }
+      "link": [
+        {
+          "linkTree": "https://linktr.ee/larry_physio"
+        }
+      ]
     },
     {
       "name": "林廷彥",
@@ -732,7 +725,9 @@
         "2020年高雄巨蛋公益體能錦標賽裁判",
         "怪獸訓練肌力與體能教練俱樂部第十七期"
       ],
-      "link": false
+      "link": [
+        
+      ]
     },
     {
       "name": "劉千瑈",
@@ -773,7 +768,9 @@
         "高雄醫學大學足球校隊隨隊防護",
         "三民高中棒球隊隊員運動防護課程總籌及講師"
       ],
-      "link": false
+      "link": [
+      
+      ]
     }
   ],
   "feedbackList": [
