@@ -1,7 +1,7 @@
 {
   "name": "movementhealth360-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "```shell npx json-server --watch db.json --port 3000 --y ```",
   "main": "server.js",
   "scripts": {
     "3004": "json-server --watch db.json --port 3004",
@@ -11,5 +11,17 @@
     "none": "10.x"
   },
   "author": "SZ",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szyln/movementHealth360_server.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Szyln/movementHealth360_server/issues"
+  },
+  "homepage": "https://github.com/Szyln/movementHealth360_server#readme",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
 }
